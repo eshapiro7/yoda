@@ -1,0 +1,53 @@
+.title {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: "Jedi" ;
+}
+
+.directions {
+  
+  margin-top: 60px;
+  font-size: 30px;
+  font-family: "Jedi" ;
+}
+
+.format {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.input-format {
+  margin-top: 50px;
+  text-align: center;
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: "Jedi" ;
+  font-size: 15px;
+}
+
+button {
+  width: 120px;
+  height: 55px;
+  margin-left: 10px;
+  border-radius: 20px;
+  font-family: "Jedi" ;
+  font-size: 15px;
+}
+
+.translated {
+  font-size: 30px;
+  font-family: "Jedi" ;
+}
+
+@font-face {
+  font-family: "Jedi";   /*Can be any text*/
+  src: local("Starjedi"),
+    url("./fonts/Starjedi.ttf") format("truetype");
+}
